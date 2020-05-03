@@ -11,6 +11,7 @@ export default function index(props) {
                 placeholder={props.placeholder}
                 margin="normal"
                 variant="outlined"
+                required={props.required}
             />
         </div>
     )

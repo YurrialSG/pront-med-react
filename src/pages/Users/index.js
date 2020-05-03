@@ -2,7 +2,8 @@ import React from 'react';
 import Button from '../../components/Form/Button';
 import Table from '../../components/Table';
 
-function index() {
+function Users() {
+
   return (
     <div id="container">
         <Button className="btn-cadastrar" text="Cadastrar" />
@@ -11,4 +12,4 @@ function index() {
   );
 }
 
-export default index;
+export default Users;

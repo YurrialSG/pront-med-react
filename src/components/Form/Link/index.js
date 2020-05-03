@@ -5,7 +5,7 @@ import './styles.scss';
 export default function index(props) {
     return (
         <div id="container">
-            <Link href={props.href} className={props.className} onClick={props.onClick}>
+            <Link href={props.href} className={props.className} >
                 {props.text}
             </Link>
         </div>
