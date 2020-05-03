@@ -31,14 +31,14 @@ export default function Index({ children }) {
             {menu ?
                 <>
                     <div className="menu-lateral">
-                        <Link className="link-menu-left" href="" text="Dashboard" />
-                        <Link className="link-menu-left" href="" text="Usuário" />
-                        <Link className="link-menu-left" href="" text="Agenda Médica" />
-                        <Link className="link-menu-left" href="" text="Medicamentos" />
-                        <Link className="link-menu-left" href="" text="Exames" />
-                        <Link className="link-menu-left" href="" text="Convênios" />
-                        <Link className="link-menu-left" href="" text="Prontuário Médico" />
-                        <Link className="link-menu-left" href="" text="Sair" />
+                        <Link className="link-menu-left" href="/dashboard" text="Dashboard" />
+                        <Link className="link-menu-left" href="/users" text="Usuário" />
+                        <Link className="link-menu-left" href="/" text="Agenda Médica" />
+                        <Link className="link-menu-left" href="/" text="Medicamentos" />
+                        <Link className="link-menu-left" href="/" text="Exames" />
+                        <Link className="link-menu-left" href="/" text="Convênios" />
+                        <Link className="link-menu-left" href="/" text="Prontuário Médico" />
+                        <Link className="link-menu-left" href="/" text="Sair" />
                     </div>
                     <div className="menu-central-opened">
                         {children}

@@ -1,0 +1,18 @@
+.top {
+    display: inline-flex;
+    position: static;
+    width: 100vh;
+
+    .info-page {
+        display: flex;
+        justify-content: left;
+        width: max-content;
+        align-self: flex-end;
+    }
+
+    .btn-cadastrar {
+        width: max-content;
+        display: flex;
+        justify-content: right;
+    }
+}

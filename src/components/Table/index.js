@@ -1,14 +1,14 @@
-import React from 'react'
-import { Icon, Label, Menu, Table } from 'semantic-ui-react'
+import React from 'react';
+import { Icon, Label, Menu, Table } from 'semantic-ui-react';
 
 export default function index() {
     return (
         <Table celled>
             <Table.Header>
                 <Table.Row>
-                    <Table.HeaderCell>ID</Table.HeaderCell>
-                    <Table.HeaderCell>Nome</Table.HeaderCell>
-                    <Table.HeaderCell>E-mail</Table.HeaderCell>
+                    <Table.HeaderCell>Header</Table.HeaderCell>
+                    <Table.HeaderCell>Header</Table.HeaderCell>
+                    <Table.HeaderCell>Header</Table.HeaderCell>
                 </Table.Row>
             </Table.Header>
 
